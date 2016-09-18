@@ -1,0 +1,234 @@
+:-moz-placeholder
+	{
+		color:green;
+	}
+
+::-webkit-input-placeholder
+	{
+		color:green;
+	}
+
+*:focus
+	{
+		outline:none;
+	}
+
+body
+	{
+		font:14px/21px "lucida Sans","lucida Grande","lucida Sans Unicode",sans-serif;
+	}
+
+.forma_contacto h2, .forma_contacto label
+	{ 
+	 		font-style:italic;
+  font-weight:bold;
+  font-size:1em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	}
+
+.hint_forma, .notificacion_requerida
+	{
+		font-size:11px;
+	}
+
+.forma_contacto ul
+	{
+		width: 750px;
+		list-style-type: none;
+		list-style-position: outside;;
+		margin: 0px;
+		padding: 0px;
+	}
+.forma_contacto li
+	{
+		padding: 12px;
+		border-bottom:1px solid #eee;
+		position: relative;
+	}
+.forma_contacto li:first-child,
+.forma_contacto li:last-child
+	{
+		border-bottom: 1px solid #777;
+	}
+.forma_contacto h2
+	{
+		margin: 0;
+		display: inline;
+	}
+.notificacion_requerida
+	{
+		color: #d45252;
+		margin: 5px 0 0 0;
+		display: inline;
+	float: right;
+	}
+.forma_contacto label
+	{
+		width: 150px;
+		margin-top: 3px;
+		display: inline-block;
+		float: left;
+		padding: 3px;
+	}
+.forma_contacto input
+	{
+		height: 20px;
+		width: 220px;
+		padding: 5px 8px;
+	}
+.forma_contacto textarea
+	{
+		padding: 8px;
+		width: 300px;
+	}
+.forma_contacto button
+	{
+		margin-left: 156px;
+	}
+.forma_contacto input, .forma_contacto textarea
+	{
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius: 2px;
+		-moz-transition:padding .25s;
+		-webkit-transition:padding .25s;
+		-o-transition:padding .25s;
+		-ms-transition:padding .25s;
+		transition:padding .25s;
+		padding-right: 30px;
+	}	
+.forma_contacto input:focus, .forma_contacto textarea:focus
+	{
+		background: #fff;
+		border:1px solid #555;
+		box-shadow: 0 0 3px #aaa;
+	}
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #0b6e7d;
+	-webkit-box-shadow: 0px 10px 14px -7px #0b6e7d;
+	box-shadow: 0px 10px 14px -7px #0b6e7d;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #81d474), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #81d474 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #81d474 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #81d474 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #81d474 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #81d474 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#81d474', endColorstr='#408c99',GradientType=0);
+	background-color:#81d474;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6da383;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #81d474));
+	background:-moz-linear-gradient(top, #408c99 5%, #81d474 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #81d474 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #81d474 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #81d474 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #81d474 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#81d474',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.forma_contacto input:focus, .forma_contacto textarea:focus{
+	padding-right: 70px;
+}
+input:required, textarea:required{
+background: #fff url(asterisco.png)no-repeat 98% center;
+}
+.cabecera{
+float: none;
+
+}
+.menu{
+float: none;
+background: -webkit-linear-gradient(#ccff99, #000); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#ccff99, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#ccff99, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#ccff99, white); /* Standard syntax */
+}
+.formato{float: left;}
+.lateralizq{ float: left;
+	
+	width: 15%;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px;
+	background: -webkit-linear-gradient(#fff, #009900); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#fff, #009900); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#fff, #009900); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#fff, #009900); /* Standard syntax */
+ }
+.contenido{  float: left;
+	width: 75%;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px;
+}
+.lateralder{ float: left;
+
+	width: 10%;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px;
+ 	background: -webkit-linear-gradient(#fff, #009900); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#fff, #009900); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#fff, #009900); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#fff, #009900); /* Standard syntax */
+}.acercade{
+background-color: green;
+	float: none;
+	clear: both;
+}
+td {
+  border: green 5px solid;
+}
+table {
+  border-collapse: collapse;
+}
+a:link   
+{   
+ text-decoration:none;   
+}   
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}

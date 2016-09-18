@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>HTML5 forma de contacto</title>
+<link rel="stylesheet" media="screen"  href="styles.css">
+<form class="forma_contacto" action="" method="post" name="forma_contacto" >
+<ul>
+	<li>
+		<h2>Contáctanos</h2>
+			<span class="notificacion_requerida">* Indica campo requerido
+			</span>
+   </li>
+   <li>
+   	<label for="nombre">Nombre:</label>
+	<input type="text" name="Nombre" placeholder="German Felix" required="">
+   </li>
+    <li>
+   	<label for="email">Correo Electronico:</label>
+	<input type="email" name="email" placeholder="nombre@algo.com" required="">
+   <span class="hint_forma">Formato Correcto "nombre@algo.com"</span>
+   </li>
+   <li>
+   	<label for="pagina">Sitio Web:</label>
+	<input type="url" name="Sitioweb" placeholder="http://www.algo.com" required="">
+   <span class="hint_forma">Formato Correcto "http://www.algo.com"</span>
+   </li>
+    <li>
+   	<label for="mensaje">Mensaje:</label>
+	<textarea type="text" name="Mensaje" placeholder="Expresate aqui" cols="40" rows="6" required=""></textarea>
+   
+   </li>
+   <li><button  name="submit" class="myButton" type="submit" >Enviar forma</button>
+      <button  name="submitw" class="myButton" ><a href='index.html'>Regresar</button></li>
+</ul>
+</form>
+</head>
+<body bgcolor="#E5FFCC">
+
+</body>
+
+</html>
+
+<!--input type tipos de valores posibles
+email
+text
+url -->
